@@ -209,14 +209,13 @@
       left: 0;
       right: 0;
     }
-    .menu__list--active {
+    &__list--active {
       transform: translateY(0%);
     }
     &__list-link {
       text-align: center;
       display: block;
       padding: 10px;
-    }
     }
   }
   .direction {
@@ -229,6 +228,7 @@
       width: 100%;
     }
   }
+}
   .travel-info {
     &__items {
       grid-template-columns: repeat(2, 1fr);
